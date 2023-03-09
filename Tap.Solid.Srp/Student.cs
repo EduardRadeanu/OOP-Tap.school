@@ -4,7 +4,7 @@ using System.Net.Mail;
 
 namespace Tap.Solid.Srp
 {
-    public class Student
+    internal class Student
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -24,8 +24,16 @@ namespace Tap.Solid.Srp
             {
                 var affectedRows = connection.Execute(sqlCommand);
             }
+            return "Student enroled!";
+        }
+    
+    }
 
-            var mail = new MailMessage("demo@solid.principles.srp", Email);
+    internal class EmailSender
+    {
+        public void SendEmail(string name, string email)
+        {
+            var mail = new MailMessage("demo@solid.principles.srp", email);
             var client = new SmtpClient
             {
                 Port = 25,
@@ -33,10 +41,38 @@ namespace Tap.Solid.Srp
             };
 
             mail.Subject = "Welcome to the lab!";
-            mail.Body = $"Hey {Name}! Glad to have you!";
+            mail.Body = $"Hey Robert! Glad to have you!";
             client.Send(mail);
+        }
+    }
 
-            return "Student enroled!";
+   
+    internal class ValidStudents
+    {
+        private readonly EmailSender emailSender;
+
+        public ValidStudents(EmailSender emailSender)
+        {
+            this.emailSender = emailSender;
+        }
+
+        public void Process(Student student)
+        {
+            emailSender.SendEmail(student.Name, student.Email);
+        }
+    }
+
+    internal class ValidationResult
+    {
+        public bool IsValid { get; }
+        public bool IsNotValid { get; }
+
+        public ValidationResult(bool isValid, bool isNotValid)
+        {
+            IsValid = isValid;
+            IsNotValid = isNotValid;
+            
+
         }
     }
 }
