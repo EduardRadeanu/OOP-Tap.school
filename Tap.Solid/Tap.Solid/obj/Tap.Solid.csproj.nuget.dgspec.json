@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\visual programs\\Tap.Solid\\Tap.Solid\\Tap.Solid.csproj": {}
+  },
+  "projects": {
+    "E:\\visual programs\\Tap.Solid\\Tap.Solid.Dip\\Tap.Solid.Dip.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\visual programs\\Tap.Solid\\Tap.Solid.Dip\\Tap.Solid.Dip.csproj",
+        "projectName": "Tap.Solid.Dip",
+        "projectPath": "E:\\visual programs\\Tap.Solid\\Tap.Solid.Dip\\Tap.Solid.Dip.csproj",
+        "packagesPath": "C:\\Users\\edira\\.nuget\\packages\\",
+        "outputPath": "E:\\visual programs\\Tap.Solid\\Tap.Solid.Dip\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\visual programs\\Tap.Solid\\Tap.Solid\\Tap.Solid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\visual programs\\Tap.Solid\\Tap.Solid\\Tap.Solid.csproj",
+        "projectName": "Tap.Solid",
+        "projectPath": "E:\\visual programs\\Tap.Solid\\Tap.Solid\\Tap.Solid.csproj",
+        "packagesPath": "C:\\Users\\edira\\.nuget\\packages\\",
+        "outputPath": "E:\\visual programs\\Tap.Solid\\Tap.Solid\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\visual programs\\Tap.Solid\\Tap.Solid.Dip\\Tap.Solid.Dip.csproj": {
+                "projectPath": "E:\\visual programs\\Tap.Solid\\Tap.Solid.Dip\\Tap.Solid.Dip.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "J/Dhjps2ECJj1snVzb7DXQ5CHLIPO8bwOmgTmeySRv3JWxDri9xPXPl6u2oExyemkUbDFukP0PKSSGfhFeENvw==",
+  "success": true,
+  "projectFilePath": "E:\\visual programs\\Tap.Solid\\Tap.Solid.Srp\\Tap.Solid.Srp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edira\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\edira\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
+    "C:\\Users\\edira\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\edira\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
